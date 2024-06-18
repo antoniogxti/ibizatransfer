@@ -2383,6 +2383,17 @@ strong {
     width: 160px;
     height: 64px;
   }
+  /* hero */
+
+  .hero-section{
+    background-image: url('../images/contact.jpg');
+    background-position: top right;
+    background-size: cover;
+  }
+  .video-wrap {
+    opacity: 0;
+  }
+
 
   /*------- ANIMATION --------*/
   .animation {
@@ -2460,6 +2471,12 @@ strong {
   }
 
   /* quienes somos*/
+
+  .about-section {
+    background-position: 66%;
+    background-size: 550%;
+
+  }
   .about-text-info {
     padding: 0;
   }
@@ -2523,7 +2540,14 @@ strong {
   .testim .cont div p {
     font-size: 15px;
   }
+
+
 /* testimonials */
+
+.testimonials1 {
+  padding-top:23%;
+  padding-bottom: 23%;
+}
 
 .testim .cont div p{
   font-size: 14px;
@@ -2536,6 +2560,7 @@ strong {
 .testim .arrow.right {
   right: 10px;
 }
+
 
 
   /* contacto */
