@@ -432,7 +432,7 @@ strong {
 
 @keyframes pulse512 {
   0% {
-    box-shadow: 0 0 0 0 #daba0566;
+    box-shadow: 0 0 0 0 #c98900ce;
   }
 
   70% {
@@ -442,6 +442,27 @@ strong {
   100% {
     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
   }
+}
+
+.custom-btn2{
+  animation: pulse512 1.5s infinite;
+  animation-delay: 4s;
+  transition: 1s ease;
+  border: none;
+  color: #fff;
+  background-image: linear-gradient(30deg, #a07300, #FDB501);
+  border-radius: var(--border-radius-large);
+  background-size: 100% auto;
+  font-family: inherit;
+  font-size: 16px;
+  padding: 0.6em 1.5em;
+
+  font-weight: 600;
+}
+
+.custom-btn2:hover {
+  background-position: right center;
+  background-size: 200% auto;
 }
 
 .custom-btn-bg-white {
@@ -477,7 +498,8 @@ strong {
 }
 
 .text-tlf {
-  color: rgb(199, 199, 199);
+  color: rgb(226, 226, 226);
+  
 }
 
 /*---------------------------------------
@@ -521,6 +543,7 @@ strong {
   position: relative;
   padding-top: 15px;
   padding-bottom: 15px;
+  transition: 0.7s ease;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link1 {
@@ -531,18 +554,20 @@ strong {
 
 .navbar-nav .nav-link1 {
   display: inline-block;
-  color: var(--secondary-color);
+  color: #ffbb00;
   font-size: var(--p-font-size);
   font-weight: var(--font-weight-normal);
   position: relative;
   padding-top: 15px;
   padding-bottom: 15px;
+ 
 }
 
 
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover {
-  color: var(--secondary-color);
+  color: #ffbb00;
+  
 
 }
 
@@ -832,7 +857,9 @@ strong {
 .artists-section h4 {
   color: grey;
 }
-
+.artists-section h2{
+  word-spacing: 5px
+}
 
 
 .artists-section p {
@@ -855,10 +882,9 @@ strong {
 }
 
 .gris h3 {
-  font-size: 29px;
   margin-bottom: 7%;
   letter-spacing: 3px;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .gris p {
@@ -941,9 +967,10 @@ strong {
 
 .titulo-flota p {
   background: #FCEABB;
-  background: linear-gradient(to right, #FCEABB 0%, #F8A100 58%, #FBDF93 100%);
+  background: linear-gradient(to right, #e6e6e6 0%, #ff9900 50%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-weight: 400;
 }
 
 .titulog {
@@ -1005,6 +1032,7 @@ strong {
 .pricing-section h2 {
   margin-bottom: 2%;
   margin-top: 5%;
+
 }
 
 .section-padding2#section_5 {
@@ -1018,7 +1046,7 @@ strong {
   border-radius: var(--border-radius-medium);
   position: relative;
   padding: 50px;
-  box-shadow: -7px 7px 25px  rgba(0, 0, 0, 0.758);
+  box-shadow: -7px 7px 25px  rgba(0, 0, 0, 0.397);
   background: rgb(255, 255, 255, 0.08)url('../images/golden.jpg');
   background-blend-mode: lighten;
   background-repeat: no-repeat;
@@ -1148,6 +1176,10 @@ strong {
 }
 
 
+.tarifas-text h3{
+  letter-spacing: 3px;
+  color: var(--secondary-color);
+}
 
 .smallt {
   font-size: 13px;
@@ -1172,13 +1204,14 @@ strong {
   background: rgba(0, 0, 0, 0.8) url(../images/testi.jpg);
   background-blend-mode: darken;
   background-size: cover;
-  padding-top: 8%;
-  padding-bottom: 9%;
+  padding-top: 7%;
+  padding-bottom: 10%;
 }
 
 .testimonials1 h2 {
-  text-shadow: 3px 3px 13px black;
-  color: white;
+  background: linear-gradient(to bottom,#ffa600, #ffc75f, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 
@@ -1245,6 +1278,7 @@ strong {
 
 .testim i {
   padding-top: 30px;
+  color: rgb(189, 189, 189)
 }
 
 .testim .dots .dot {
@@ -1312,8 +1346,8 @@ strong {
 }
 
 .testim .cont div h3 {
-  color: var(--secondary-color);
-  font-size: 18px;
+  color: #ffbb00;
+  font-size: 19px;
   margin-bottom: 35px;
   margin-top: 20px;
 }
@@ -1341,7 +1375,9 @@ strong {
 }
 
 .full-star:before {
-  color: rgb(255, 208, 0);
+  background: linear-gradient(to top left,#ffffff,#ff8800, #ffc400,#ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   content: "\2605";
 }
 
@@ -1844,8 +1880,7 @@ strong {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  margin-bottom: 0;
-  height: 350px;
+  margin-bottom: 12%;
 }
 
 .interested h2 {
@@ -1900,7 +1935,7 @@ strong {
 }
 
 .site-footer-med {
-  background: rgba(0, 0, 0, 0.8)url('../images/pexels-pixabay-163774.jpg');
+  background: rgba(0, 0, 0, 0.85)url('../images/pexels-pixabay-163774.jpg');
   background-blend-mode: darken;
   background-position-x: 25%;
   background-position-y: 44%;
@@ -1939,6 +1974,7 @@ strong {
 .smallertitle {
   font-size: 18px;
   color: rgb(0, 0, 0);
+  font-weight: 600;
 }
 
 /*---------------------------------------
@@ -2373,6 +2409,9 @@ strong {
   h5 {
     font-size: 20px;
   }
+  p{
+    font-size: 16px;
+  }
 
   /*------- HEADER --------*/
   .sticky-wrapper {
@@ -2531,6 +2570,10 @@ strong {
     padding-bottom: 20px;
   }
 
+  .titulo-flota {
+    margin-bottom: 0%;
+  }
+
   /* tarifas */
 
   .section-padding2#section_5 {
@@ -2541,12 +2584,15 @@ strong {
     font-size: 15px;
   }
 
+  .pricing-thumb {
+    box-shadow: 0px 0px 9px  rgba(0, 0, 0, 0.555);
+  }
 
 /* testimonials */
 
 .testimonials1 {
   padding-top:23%;
-  padding-bottom: 23%;
+  padding-bottom: 26%;
 }
 
 .testim .cont div p{
@@ -2565,7 +2611,7 @@ strong {
 
   /* contacto */
   .interested {
-    height: 300px;
+    margin-bottom: 15%;
   }
 
   /* footer*/
@@ -2607,14 +2653,42 @@ strong {
   CONTACTO PAG MOVIL             
 -----------------------------------------*/
   .contacto-section {
-    padding-top: 80px;
+    padding-top: 45px;
   }
 
   .fondo-section {
     padding-top: 19%;
   }
 
+  .contacto-section h2 {
+    line-height: 30px;
+    margin-bottom: 0%;
+  
+  }
+  .form-control{
+    font-size: 15px;
+  }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
