@@ -882,6 +882,7 @@ strong {
 }
 
 .gris h3 {
+  margin-top: 4%;
   margin-bottom: 7%;
   letter-spacing: 3px;
   color: var(--secondary-color);
@@ -899,6 +900,7 @@ strong {
 -----------------------------------------*/
 .schedule-section {
   background: rgba(0, 0, 0, 0.90)url('../images/fondovehi.jpg');
+  background-attachment: fixed;
   background-blend-mode: darken;
   background-repeat: no-repeat;
   background-position: center;
@@ -964,10 +966,15 @@ strong {
 .titulo-flota {
   margin-bottom: 9%;
 }
+.titulo-flota h2{
+  background: linear-gradient(to top left,#b6b6b6, #ffffff, #b9b9b9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .titulo-flota p {
   background: #FCEABB;
-  background: linear-gradient(to right, #e6e6e6 0%, #ff9900 50%);
+  background: linear-gradient(to right, #e6e6e6 0%, #ffbb00 50%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 400;
@@ -1006,17 +1013,29 @@ strong {
 -----------------------------------------*/
 
 .imagenescarousel {
-  padding-top: 6%;
-  padding-bottom: 5%;
-  background: rgba(255, 255, 255, 0.2)url('../images/bgsec.png');
+  
+  padding-top: 5%;
+  padding-bottom: 3%;
+  position:relative;
+  overflow: hidden;
+}
+.imagenescarousel::before{
+
+  content: "";
+  position: absolute;
+  background: rgba(182, 202, 202, 0.5)url('../images/bgsec.png');
   background-blend-mode: lighten;
   background-size: 107%;
-  background-position: center bottom;
-  border-top: 1px solid rgba(255, 255, 255, 0.055);
+  background-position: center top;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  z-index: -1;
 }
 
 .imagenescarousel img {
-  border-radius: var(--border-radius-small);
+  border-radius: var(--border-radius-small)
 }
 
 
@@ -1025,13 +1044,29 @@ strong {
 -----------------------------------------*/
 
 .pricing-section {
-  background: white;
+overflow: hidden;
+position: relative;
+}
 
+.pricing-section::before{
+  background: rgba(255, 255, 255, 0.5)url('../images/bgsec.png');
+  background-blend-mode: lighten;
+  background-size: 107%;
+  background-position: center top;
+  background-repeat: no-repeat;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -65%;
+  left:0%;
+  z-index: -1;
+  transform: scaleY(-1);
 }
 
 .pricing-section h2 {
   margin-bottom: 2%;
-  margin-top: 5%;
+  margin-top: 15%;
 
 }
 
@@ -1045,13 +1080,48 @@ strong {
   border: 4px double #ffbb00;
   border-radius: var(--border-radius-medium);
   position: relative;
+  overflow: hidden;
   padding: 50px;
-  box-shadow: -7px 7px 25px  rgba(0, 0, 0, 0.397);
+ 
   background: rgb(255, 255, 255, 0.08)url('../images/golden.jpg');
   background-blend-mode: lighten;
   background-repeat: no-repeat;
   background-size: cover;
+
+
 }
+
+.shine{
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--border-radius-medium);
+  box-shadow: -7px 7px 25px  rgba(0, 0, 0, 0.493);
+}
+.shine::before{
+  content: "";
+  position: absolute;
+  transform: rotate(30deg);
+  background: -webkit-linear-gradient(top, transparent, rgba(255, 255, 255, 0.322),transparent);
+  position: absolute;
+  animation: shine 8s ease-in-out infinite;
+  width: 800%;
+  height: 60%;
+  top: -60%;
+  left: -80%;
+  z-index: 1;
+}
+
+@keyframes shine{
+  0%,100%{
+    margin-top: -200px;
+    
+  }
+  50%{
+    margin-top: 2000px;
+  }
+}
+
+
 
 .pricing-thumb h3 small {
   display: inline-block;
@@ -1201,19 +1271,21 @@ strong {
 -----------------------------------------*/
 
 .testimonials1 {
-  background: rgba(0, 0, 0, 0.8) url(../images/testi.jpg);
+
+  background: rgba(0, 0, 0, 0.5) url(../images/testi.jpg);
   background-blend-mode: darken;
   background-size: cover;
-  padding-top: 7%;
-  padding-bottom: 10%;
+  background-size: 130%;
+padding-top: 10%;
+padding-bottom: 12%;
+background-repeat: no-repeat;
 }
 
 .testimonials1 h2 {
-  background: linear-gradient(to bottom,#ffa600, #ffc75f, #ffffff);
+  background: linear-gradient(to right,#000000, #ffffff, #000000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 
 .testim .wrap {
   position: relative;
@@ -1221,7 +1293,7 @@ strong {
   max-width: 1020px;
   padding-top: 3%;
   margin: auto;
-  background-color: rgba(190, 180, 158, 0.219);
+  background-color: rgba(255, 174, 0, 0.021);
   border-radius: var(--border-radius-medium);
   box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.274);
   border: 1px solid rgba(221, 188, 0, 0.438);
@@ -2379,7 +2451,10 @@ strong {
     font-size: 14px;
     padding: 10px 20px;
   }
-
+  .custom-btn2 {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
   .sticky-wrapper {
     margin-top: 0px;
   }
@@ -2584,15 +2659,28 @@ strong {
     font-size: 15px;
   }
 
-  .pricing-thumb {
+  .shine {
     box-shadow: 0px 0px 9px  rgba(0, 0, 0, 0.555);
   }
+
+  .pricing-section::before{
+    top: -93%;
+  }
+
+  .pricing-section h2 {
+
+    margin-top: 18%;
+  
+  }
+  
 
 /* testimonials */
 
 .testimonials1 {
   padding-top:23%;
   padding-bottom: 26%;
+  background-size: 300%;
+  background-position: center;
 }
 
 .testim .cont div p{
