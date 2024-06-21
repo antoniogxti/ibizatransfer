@@ -515,6 +515,9 @@ strong {
 
 .sticky-wrapper.is-sticky .navbar {
   background-color: var(--dark-color);
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(0.25turn,rgba(0, 0, 0), rgba(0, 0, 0), rgba(180, 180, 180, 0.562),rgba(0, 0, 0), rgba(0, 0, 0));
+  border-image-slice: 1;
 }
 
 .navbar {
@@ -1013,7 +1016,7 @@ strong {
 -----------------------------------------*/
 
 .imagenescarousel {
-  
+  box-shadow: -10px 0px 30px rgba(0, 0, 0, 0.123);
   padding-top: 5%;
   padding-bottom: 3%;
   position:relative;
@@ -1023,7 +1026,7 @@ strong {
 
   content: "";
   position: absolute;
-  background: rgba(182, 202, 202, 0.5)url('../images/bgsec.png');
+  background: rgba(255, 255, 255, 0.5)url('../images/bgsec.png');
   background-blend-mode: lighten;
   background-size: 107%;
   background-position: center top;
@@ -1272,17 +1275,17 @@ position: relative;
 
 .testimonials1 {
 
-  background: rgba(0, 0, 0, 0.5) url(../images/testi.jpg);
+  background: rgba(0, 0, 0, 0.5) url(../images/test1i.jpg);
   background-blend-mode: darken;
   background-size: cover;
   background-size: 130%;
 padding-top: 10%;
-padding-bottom: 12%;
+padding-bottom: 15%;
 background-repeat: no-repeat;
 }
 
 .testimonials1 h2 {
-  background: linear-gradient(to right,#000000, #ffffff, #000000);
+  background: linear-gradient(to top left,#000000, #ffffff, #000000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1293,7 +1296,7 @@ background-repeat: no-repeat;
   max-width: 1020px;
   padding-top: 3%;
   margin: auto;
-  background-color: rgba(255, 174, 0, 0.021);
+  background-color: rgba(255, 255, 255, 0.212);
   border-radius: var(--border-radius-medium);
   box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.274);
   border: 1px solid rgba(221, 188, 0, 0.438);
@@ -1999,15 +2002,16 @@ background-repeat: no-repeat;
 }
 
 .site-footer-top {
-  background-color: var(--secondary-color);
-  background-image: url('../images/nainoa-shizuru-NcdG9mK3PBY-unsplash.jpg');
-  background-repeat: no-repeat;
+  background: rgba(255, 174, 0, 0.9)url('../images/logo-no-background1.png');
+  background-blend-mode: darken;
+  background-repeat: repeat;
+  background-size: 10%;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
 .site-footer-med {
-  background: rgba(0, 0, 0, 0.85)url('../images/pexels-pixabay-163774.jpg');
+  background: rgba(0, 0, 0, 0.90)url('../images/pexels-pixabay-163774.jpg');
   background-blend-mode: darken;
   background-position-x: 25%;
   background-position-y: 44%;
@@ -2494,8 +2498,8 @@ background-repeat: no-repeat;
   }
 
   .navbar-brand img {
-    width: 160px;
-    height: 64px;
+    width: 190px;
+    height: 55px;
   }
   /* hero */
 
@@ -2508,6 +2512,10 @@ background-repeat: no-repeat;
     opacity: 0;
   }
 
+  /* about us */
+  .about-section {
+    background: rgba(0, 0, 0, 0.7)url('../images/pexels-ron-lach-9519968.jpg');
+  }
 
   /*------- ANIMATION --------*/
   .animation {
@@ -2687,14 +2695,24 @@ background-repeat: no-repeat;
   font-size: 14px;
   width: 70%;
 }
+
+.testim .cont div h3{
+  font-size: 17px;
+}
+
+
 .testim .arrow.left {
   left: 10px;
+  font-size: 25px;
 }
-
 .testim .arrow.right {
   right: 10px;
+  font-size: 25px;
 }
+.testim .wrap {
+  padding-top: 10%;
 
+}
 
 
   /* contacto */
