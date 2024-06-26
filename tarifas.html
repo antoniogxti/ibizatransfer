@@ -35,14 +35,14 @@ https://templatemo.com/tm-583-festava-live
 
     <main>
 
-        <header class="site-header bg-black">
-            <div class="container ">
+        <header class="site-header d-lg-block d-none">
+            <div class="container">
                 <div class="row">
 
                     <div class="col-12 d-flex flex-wrap">
                         <p class="d-flex me-5 mt-1 mb-0">
                             <i class="bi bi-telephone-fill custom-icon me-2"></i>
-                            <strong class="text-white">+34 639 943 284</strong>
+                            <a href="https://whatsapp.com"class="text-tlf">+34 639 943 284</a>
                         </p>
 
                         <ul class="social-icon d-flex align-items-center justify-content-center">
@@ -74,7 +74,7 @@ https://templatemo.com/tm-583-festava-live
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand" href="index.html">
-                    <img src="images/logoibiza.png" width="200" height="80">
+                    <img src="images/logo-no-background2.png" width="260" height="75">
                 </a>
 
                 <a href="contacto.html" class="btn custom-btn d-lg-none ms-auto me-4">Contacto</a>
@@ -217,19 +217,94 @@ https://templatemo.com/tm-583-festava-live
                 </div>
             </div>
         </section>
+
+        <section class="contact-section section-padding" id="section_6">
+            <div class="container">
+
+                <div class="interested">
+                    <div class="row ">
+
+                        <h2 class="text-center mt-lg-5 mt-0 mb-4 fadein">¿Interesad@?</h2>
+
+                        <div class="text-center fadein">
+                            <p class="text-dark">Si está interesado en hablar para concertar una cita, contacte con
+                                nuestro
+                                equipo pulsando en el botón. </p>
+                            <a class="btn custom-btn" href="contacto.html">CONTACTAR AHORA</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row mt-0 mt-lg-3">
+
+                    <div class="col-lg-6 col-12 p-4 pt-0 pb-0 fadein">
+                        <h5 class="mb-2 mt-5 mt-lg-0">Encuéntranos fácilmente</h5>
+                        <div class="tab-pane mt-0">
+                            <iframe class="google-map"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35089.29050752629!2d1.291749847027333!3d38.98143952116542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1299476385093943%3A0x9064725cd8426d6!2sIbiza!5e0!3m2!1ses!2ses!4v1717055526071!5m2!1ses!2ses"
+                                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-6 col-12 p-4 pt-0 pb-0 fadein">
+                        <h5 class="mb-3 mb-lg-4 mt-5 mt-lg-0">¿Prefieres dejar un mensaje rápido?</h5>
+                        <form class="custom-form contact-form mb-5" action="#" method="post" role="form">
+                            <div class="contact-form-body">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-12">
+                                        <input type="text" name="contact-name" id="contact-name" class="form-control"
+                                            placeholder="Nombre y apellidos" required>
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 col-12">
+                                        <input type="email" name="contact-email" id="contact-email"
+                                            pattern="[^ @]*@[^ @]*" class="form-control"
+                                            placeholder="Dirección de correo electrónico" required>
+                                    </div>
+                                </div>
+
+                                <input type="text" name="contact-company" id="contact-company" class="form-control"
+                                    placeholder="Empresa" required>
+
+                                <textarea name="contact-message" rows="3" class="form-control" id="contact-message"
+                                    placeholder="Mensaje"></textarea>
+
+                                <div class="row">
+                                    <div class="col-8">
+                                    </div>
+
+                                    <div class="col-12 col-lg-4">
+                                        <button type="submit">Enviar mensaje
+                                            rápido</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
     </main>
 
 
+    <!----------------------------- FOOTER ----------------------------->
     <footer class="site-footer">
         <div class="site-footer-top">
             <div class="container">
                 <div class="row">
 
-                    <div class="col-lg-6 col-12">
-                        <h2 class="text-white mb-lg-0">IbizaTransfer <span class="smallertitle">LUXURY.</span></h2>
+                    <div class="col-lg-6 col-12 ">
+                        <h2 class="text-white">IbizaTransfer<span class="smallertitle"> Luxury.</span></h2>
                     </div>
 
-                    <div class="col-lg-6 col-12 d-flex justify-content-lg-end align-items-center">
+                    <div class="col-lg-6 col-12 d-flex justify-content-lg-end align-items-center pe-lg-5 pe-0">
                         <ul class="social-icon d-flex justify-content-lg-end">
                             <li class="social-icon-item">
                                 <a href="#" class="social-icon-link">
@@ -254,12 +329,6 @@ https://templatemo.com/tm-583-festava-live
                                     <span class="bi-youtube"></span>
                                 </a>
                             </li>
-
-                            <li class="social-icon-item">
-                                <a href="#" class="social-icon-link">
-                                    <span class="bi-pinterest"></span>
-                                </a>
-                            </li>
                         </ul>
                     </div>
                 </div>
@@ -276,10 +345,6 @@ https://templatemo.com/tm-583-festava-live
                         <ul class="site-footer-links">
                             <li class="site-footer-link-item">
                                 <a href="#" class="site-footer-link">Inicio</a>
-                            </li>
-
-                            <li class="site-footer-link-item">
-                                <a href="#" class="site-footer-link">Quienes Somos</a>
                             </li>
 
                             <li class="site-footer-link-item">
@@ -342,41 +407,73 @@ https://templatemo.com/tm-583-festava-live
             <div class="container">
                 <div class="row">
 
-                    <div class="col-lg-3 col-12 mt-5">
+                    <div class="col-lg-4 col-12 mt-5">
                         <p class="copyright-text">Copyright © 2024 IbizaTransfer Company</p>
                         <p class="copyright-text">Creado por: <a
                                 href="https://gutizzz.000webhostapp.com">antoniogutiérrez</a></p>
                     </div>
 
-                    <div class="col-lg-8 col-12 mt-lg-5 d-flex justify-content-end ">
-                        <ul class="site-footer-links">
-                            <li class="site-footer-link-item">
-                                <a href="#" class="site-footer-link ms-5 me-4">Términos &amp; Condiciones</a>
-                            </li>
+                    <div class="col-lg-8 col-12 mt-lg-5 d-flex justify-content-end mt-3 mt-lg-0 ">
 
-                            <li class="site-footer-link-item">
-                                <a href="#" class="site-footer-link me-4">Política de Privacidad</a>
-                            </li>
+                        <div class="col-lg-2 text-center">
+                            <ul class="site-footer-links">
+                                <li class="site-footer-link-item">
+                                    <a href="#" class="site-footer-link">Términos &amp;
+                                        Condiciones</a>
+                                </li>
+                            </ul>
+                        </div>
 
-                            <li class="site-footer-link-item">
-                                <a href="#" class="site-footer-link">Tu Feedback</a>
-                            </li>
-                        </ul>
+                        <div class="col-lg-2 text-center">
+                            <ul class="site-footer-links">
+                                <li class="site-footer-link-item">
+                                    <a href="#" class="site-footer-link">Política de Privacidad</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-2 text-center">
+                            <ul class="site-footer-links">
+                                <li class="site-footer-link-item">
+                                    <a href="#" class="site-footer-link mt-0 mt-lg-2">Tu Feedback</a>
+                                </li>
+                            </ul>
+                        </div>
+
                     </div>
                 </div>
             </div>
-        </div>
     </footer>
-    <!--
 
-T e m p l a t e M o
 
--->
+        <!-------------------------------------------
+
+A n t o n i o  G u t i é r r e z
+
+--------------------------------->
+
+
     <!-- JAVASCRIPT FILES -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.sticky.js"></script>
     <script src="js/custom.js"></script>
+
+    <!-- ICONOS FILES -->
+    <script src="https://use.fontawesome.com/1744f3f671.js"></script>
+
+    <!-- CARUSEL JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="js/micarusel.js"></script>
+
+    <!-- TESTIMONIALS JS -->
+    <script src="js/testim.js"></script>
+
+    <!-- fadein JS -->
+    <script src="js/fadein.js"></script>
+
+    <!-- cookies JS -->
+    <script src="js/cookies.js"></script>
 
 </body>
 

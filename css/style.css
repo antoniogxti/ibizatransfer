@@ -408,7 +408,6 @@ strong {
   color: rgb(224, 224, 224);
 }
 
-
 .custom-btn {
   border: none;
   color: #fff;
@@ -444,7 +443,7 @@ strong {
   }
 }
 
-.custom-btn2{
+.custom-btn2 {
   animation: pulse512 1.5s infinite;
   animation-delay: 4s;
   transition: 1s ease;
@@ -472,7 +471,7 @@ strong {
 
 
 /*---------------------------------------
-  VIDEO              
+ VIDEO              
 -----------------------------------------*/
 .video-wrap {
   z-index: -100;
@@ -489,7 +488,7 @@ strong {
 
 
 /*---------------------------------------
-  SITE HEADER              
+           SITE HEADER              
 -----------------------------------------*/
 .site-header {
   background-color: var(--dark-color);
@@ -499,11 +498,17 @@ strong {
 
 .text-tlf {
   color: rgb(226, 226, 226);
-  
+  font-weight: 300;
+  transition: 1s;
+}
+
+.text-tlf:hover {
+  color: rgb(255, 213, 136);
+  font-weight: 300;
 }
 
 /*---------------------------------------
-  NAVIGATION              
+          NAVIGATION              
 -----------------------------------------*/
 .sticky-wrapper {
   position: absolute;
@@ -516,7 +521,7 @@ strong {
 .sticky-wrapper.is-sticky .navbar {
   background-color: var(--dark-color);
   border-bottom: 2px solid transparent;
-  border-image: linear-gradient(0.25turn,rgba(0, 0, 0), rgba(0, 0, 0), rgba(180, 180, 180, 0.562),rgba(0, 0, 0), rgba(0, 0, 0));
+  border-image: linear-gradient(0.25turn, #00000000,#00000000, #ffffff41, #ffc400b2, #ffffff41,#00000000, #00000000);
   border-image-slice: 1;
 }
 
@@ -563,15 +568,12 @@ strong {
   position: relative;
   padding-top: 15px;
   padding-bottom: 15px;
- 
-}
 
+}
 
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover {
   color: #ffbb00;
-  
-
 }
 
 .navbar-toggler {
@@ -642,7 +644,7 @@ strong {
 
 
 /*---------------------------------------
-  HERO        
+            HERO        
 -----------------------------------------*/
 .hero-section {
   position: relative;
@@ -671,7 +673,6 @@ strong {
 .hero-section .container .row {
   height: 100%;
 }
-
 
 .herotext p {
   text-shadow: 0 0 7px rgba(226, 226, 226, 0.3), 0 0 3px rgba(151, 151, 151, 0.3);
@@ -767,7 +768,7 @@ strong {
 
 
 /*---------------------------------------
-  ABOUT              
+                ABOUT              
 -----------------------------------------*/
 .about-section {
   background: rgba(0, 0, 0, 0.8)url('../images/pexels-ron-lach-9519968.jpg');
@@ -818,7 +819,7 @@ strong {
 
 
 /*---------------------------------------
-  CARACT           
+              CARACT           
 -----------------------------------------*/
 .caract-section {
   background-color: #000000;
@@ -848,7 +849,7 @@ strong {
 }
 
 /*---------------------------------------
-  NUESTROS SERVICIOS          
+              SERVICIOS          
 -----------------------------------------*/
 
 .artists-section {
@@ -860,7 +861,8 @@ strong {
 .artists-section h4 {
   color: grey;
 }
-.artists-section h2{
+
+.artists-section h2 {
   word-spacing: 5px
 }
 
@@ -892,14 +894,21 @@ strong {
 }
 
 .gris p {
-  text-align: justify;
+  text-align: start;
   color: rgb(29, 29, 29);
 }
 
+.gris strong{
+  margin-top: 5%;
+  margin-bottom: 2%;
+  text-align: start;
+}
 
-
+.segundotext{
+  margin-top: 10%;
+}
 /*---------------------------------------
-  FLOTA            
+               FLOTA            
 -----------------------------------------*/
 .schedule-section {
   background: rgba(0, 0, 0, 0.90)url('../images/fondovehi.jpg');
@@ -969,9 +978,11 @@ strong {
 .titulo-flota {
   margin-bottom: 9%;
 }
-.titulo-flota h2{
-  background: linear-gradient(to top left,#b6b6b6, #ffffff, #b9b9b9);
+
+.titulo-flota h2 {
+  background: linear-gradient(to top left, #b6b6b6, #ffffff, #b9b9b9);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -979,6 +990,7 @@ strong {
   background: #FCEABB;
   background: linear-gradient(to right, #e6e6e6 0%, #ffbb00 50%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 400;
 }
@@ -995,6 +1007,7 @@ strong {
   background: #FCEABB;
   background: linear-gradient(to right, #FCEABB 0%, #FCCD4D 39%, #F8B500 49%, #FBDF93 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 
 }
@@ -1012,17 +1025,18 @@ strong {
 
 
 /*---------------------------------------
-  imagenes carousel           
+            CAROUSEL          
 -----------------------------------------*/
 
 .imagenescarousel {
   box-shadow: -10px 0px 30px rgba(0, 0, 0, 0.123);
   padding-top: 5%;
   padding-bottom: 3%;
-  position:relative;
+  position: relative;
   overflow: hidden;
 }
-.imagenescarousel::before{
+
+.imagenescarousel::before {
 
   content: "";
   position: absolute;
@@ -1043,15 +1057,15 @@ strong {
 
 
 /*---------------------------------------
-  TARIFAS             
+              TARIFAS             
 -----------------------------------------*/
 
 .pricing-section {
-overflow: hidden;
-position: relative;
+  overflow: hidden;
+  position: relative;
 }
 
-.pricing-section::before{
+.pricing-section::before {
   background: rgba(255, 255, 255, 0.5)url('../images/bgsec.png');
   background-blend-mode: lighten;
   background-size: 107%;
@@ -1062,7 +1076,7 @@ position: relative;
   width: 100%;
   height: 100%;
   top: -65%;
-  left:0%;
+  left: 0%;
   z-index: -1;
   transform: scaleY(-1);
 }
@@ -1078,33 +1092,31 @@ position: relative;
 }
 
 
-
 .pricing-thumb {
   border: 4px double #ffbb00;
   border-radius: var(--border-radius-medium);
   position: relative;
   overflow: hidden;
   padding: 50px;
- 
+
   background: rgb(255, 255, 255, 0.08)url('../images/golden.jpg');
   background-blend-mode: lighten;
   background-repeat: no-repeat;
   background-size: cover;
-
-
 }
 
-.shine{
+.shine {
   position: relative;
   overflow: hidden;
   border-radius: var(--border-radius-medium);
-  box-shadow: -7px 7px 25px  rgba(0, 0, 0, 0.493);
+  box-shadow: -7px 7px 25px rgba(0, 0, 0, 0.493);
 }
-.shine::before{
+
+.shine::before {
   content: "";
   position: absolute;
   transform: rotate(30deg);
-  background: -webkit-linear-gradient(top, transparent, rgba(255, 255, 255, 0.322),transparent);
+  background: -webkit-linear-gradient(top, transparent, rgba(255, 255, 255, 0.322), transparent);
   position: absolute;
   animation: shine 8s ease-in-out infinite;
   width: 800%;
@@ -1114,17 +1126,18 @@ position: relative;
   z-index: 1;
 }
 
-@keyframes shine{
-  0%,100%{
+@keyframes shine {
+
+  0%,
+  100% {
     margin-top: -200px;
-    
+
   }
-  50%{
+
+  50% {
     margin-top: 2000px;
   }
 }
-
-
 
 .pricing-thumb h3 small {
   display: inline-block;
@@ -1135,7 +1148,6 @@ position: relative;
 .pricing-list {
   column-count: 2;
   padding-left: 20px;
-
 }
 
 .pricing-list-item {
@@ -1248,8 +1260,7 @@ position: relative;
   font-size: 19px;
 }
 
-
-.tarifas-text h3{
+.tarifas-text h3 {
   letter-spacing: 3px;
   color: var(--secondary-color);
 }
@@ -1270,24 +1281,25 @@ position: relative;
 
 
 /*---------------------------------------
- TESTIMONIALS         
+          TESTIMONIALS         
 -----------------------------------------*/
 
 .testimonials1 {
-
-  background: rgba(0, 0, 0, 0.5) url(../images/test1i.jpg);
+  background: rgba(0, 0, 0, 0.3) url(../images/test1i.jpg);
   background-blend-mode: darken;
   background-size: cover;
   background-size: 130%;
-padding-top: 10%;
-padding-bottom: 15%;
-background-repeat: no-repeat;
+  padding-top: 10%;
+  padding-bottom:14%;
+  background-repeat: no-repeat;
 }
 
 .testimonials1 h2 {
-  background: linear-gradient(to top left,#000000, #ffffff, #000000);
+  background: linear-gradient(to top left, #000000, #ffffff, #979797);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
+
 }
 
 .testim .wrap {
@@ -1296,7 +1308,7 @@ background-repeat: no-repeat;
   max-width: 1020px;
   padding-top: 3%;
   margin: auto;
-  background-color: rgba(255, 255, 255, 0.212);
+  background-color: rgba(26, 26, 26, 0.527);
   border-radius: var(--border-radius-medium);
   box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.274);
   border: 1px solid rgba(221, 188, 0, 0.438);
@@ -1330,7 +1342,6 @@ background-repeat: no-repeat;
 .testim .arrow:hover {
   color: var(--secondary-color);
 }
-
 
 .testim .arrow.left {
   left: 70px;
@@ -1405,12 +1416,10 @@ background-repeat: no-repeat;
   opacity: 1;
 }
 
-
 .testim .cont>div.active {
   position: relative;
   opacity: 1;
 }
-
 
 .testim .cont div .img img {
   display: block;
@@ -1435,8 +1444,6 @@ background-repeat: no-repeat;
   margin-bottom: 0%;
 }
 
-
-
 .rating-box {
   position: relative;
   color: rgb(255, 255, 255);
@@ -1450,8 +1457,9 @@ background-repeat: no-repeat;
 }
 
 .full-star:before {
-  background: linear-gradient(to top left,#ffffff,#ff8800, #ffc400,#ffffff);
+  background: linear-gradient(to top left, #ffffff, #ff8800, #ffc400, #ffffff);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   content: "\2605";
 }
@@ -1460,9 +1468,6 @@ background-repeat: no-repeat;
   content: "\2605";
   color: #ffffff57;
 }
-
-
-
 
 .testim .cont div.active .rating-box {
   -webkit-animation: testim-content-in .4s ease-in-out forwards;
@@ -1479,10 +1484,6 @@ background-repeat: no-repeat;
   -o-animation: testim-hide .5s ease-in-out forwards;
   animation: testim-hide .5s ease-in-out forwards;
 }
-
-
-
-
 
 .testim .cont div.active .img img {
   -webkit-animation: testim-show .5s ease-in-out forwards;
@@ -1912,7 +1913,7 @@ background-repeat: no-repeat;
 
 
 /*---------------------------------------
-  CONTACT               
+              CONTACT               
 -----------------------------------------*/
 .contact-section {
   position: relative;
@@ -1963,7 +1964,7 @@ background-repeat: no-repeat;
 }
 
 /*--
-  CUSTOM FORM               
+                    CUSTOM FORM               
 --*/
 .custom-form .form-control {
   color: var(--p-color);
@@ -1992,7 +1993,7 @@ background-repeat: no-repeat;
 }
 
 /*---------------------------------------
-  SITE FOOTER              
+               SITE FOOTER              
 -----------------------------------------*/
 .site-footer {
   background-color: var(--dark-color);
@@ -2054,7 +2055,7 @@ background-repeat: no-repeat;
 }
 
 /*---------------------------------------
-  SOCIAL ICON               
+                SOCIAL ICON               
 -----------------------------------------*/
 .social-icon {
   margin: 0;
@@ -2090,9 +2091,102 @@ background-repeat: no-repeat;
 
 
 
+/*---------------------------------------
+                COOKIES!           
+-----------------------------------------*/
 
 
+.cookiesbox {
+  position: fixed;
+  bottom: 50px;
+  right: -370px;
+  max-width: 345px;
+  width: 100%;
+  background: #000000dc;
+  border-radius: 8px;
+  padding: 15px 25px 22px;
+  transition: right 0.3s ease;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  z-index: 99999;
+}
 
+.cookiesbox.show {
+  right: 20px;
+}
+
+.cookiesbox .header {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  margin-top: 5px;
+}
+.cookiesbox hr{
+  color: white;
+  width: 60%;
+
+}
+.header svg{
+  margin-bottom: 7px;
+}
+
+.header h2 {
+  color: #ffbb00;
+  font-weight: 500;
+  font-size: 25px
+}
+
+.cookiesbox .data {
+  margin-top: 20px;
+}
+
+.cookiesbox .data p {
+  color: #ebebeb;
+  font-size: 16px;
+}
+
+.data p a {
+  color: #ffae00;
+  text-decoration: none;
+}
+
+.data p a:hover {
+  text-decoration: underline;
+}
+
+.cookiesbox .buttons {
+  margin-top: 16px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttons .button {
+  border: none;
+  color: #000000;
+  padding: 8px 0;
+  border-radius: 4px;
+  background: #ffbb00;
+  cursor: pointer;
+  width: calc(100% / 2 - 10px);
+  transition: all 0.2s ease;
+}
+
+.buttons #acceptBtn:hover {
+  background-color: #c59100;
+  color: #fff;
+}
+
+#declineBtn {
+  border: 2px solid #ffbb00;
+  background-color: #000000;
+  color: #f4c440;
+}
+
+#declineBtn:hover {
+  background-color: #c59100;
+  color: #fff;
+}
 
 
 
@@ -2455,10 +2549,12 @@ background-repeat: no-repeat;
     font-size: 14px;
     padding: 10px 20px;
   }
+
   .custom-btn2 {
     font-size: 14px;
     padding: 10px 20px;
   }
+
   .sticky-wrapper {
     margin-top: 0px;
   }
@@ -2488,11 +2584,12 @@ background-repeat: no-repeat;
   h5 {
     font-size: 20px;
   }
-  p{
+
+  p {
     font-size: 16px;
   }
 
-  /*------- HEADER --------*/
+  /* HEADER */
   .sticky-wrapper {
     margin-top: 0;
   }
@@ -2501,13 +2598,14 @@ background-repeat: no-repeat;
     width: 190px;
     height: 55px;
   }
-  /* hero */
 
-  .hero-section{
+  /* hero */
+  .hero-section {
     background-image: url('../images/contact.jpg');
     background-position: top right;
     background-size: cover;
   }
+
   .video-wrap {
     opacity: 0;
   }
@@ -2517,7 +2615,7 @@ background-repeat: no-repeat;
     background: rgba(0, 0, 0, 0.7)url('../images/pexels-ron-lach-9519968.jpg');
   }
 
-  /*------- ANIMATION --------*/
+  /* ANIMATION */
   .animation {
     font-size: 20px;
     height: 30px;
@@ -2599,6 +2697,7 @@ background-repeat: no-repeat;
     background-size: 550%;
 
   }
+
   .about-text-info {
     padding: 0;
   }
@@ -2668,51 +2767,53 @@ background-repeat: no-repeat;
   }
 
   .shine {
-    box-shadow: 0px 0px 9px  rgba(0, 0, 0, 0.555);
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.555);
   }
 
-  .pricing-section::before{
+  .pricing-section::before {
     top: -93%;
   }
 
   .pricing-section h2 {
 
     margin-top: 18%;
-  
+
   }
-  
-
-/* testimonials */
-
-.testimonials1 {
-  padding-top:23%;
-  padding-bottom: 26%;
-  background-size: 300%;
-  background-position: center;
-}
-
-.testim .cont div p{
-  font-size: 14px;
-  width: 70%;
-}
-
-.testim .cont div h3{
-  font-size: 17px;
-}
 
 
-.testim .arrow.left {
-  left: 10px;
-  font-size: 25px;
-}
-.testim .arrow.right {
-  right: 10px;
-  font-size: 25px;
-}
-.testim .wrap {
-  padding-top: 10%;
+  /* testimonials */
 
-}
+  .testimonials1 {
+    padding-top: 23%;
+    padding-bottom: 26%;
+    background-size: 300%;
+    background-position: top center;
+  }
+
+  .testim .cont div p {
+    font-size: 14px;
+    width: 70%;
+  }
+
+  .testim .cont div h3 {
+    font-size: 17px;
+  }
+
+
+  .testim .arrow.left {
+    left: 10px;
+    font-size: 25px;
+  }
+
+  .testim .arrow.right {
+    right: 10px;
+    font-size: 25px;
+  }
+
+  .testim .wrap {
+    padding-top: 10%;
+
+  }
 
 
   /* contacto */
@@ -2769,9 +2870,10 @@ background-repeat: no-repeat;
   .contacto-section h2 {
     line-height: 30px;
     margin-bottom: 0%;
-  
+
   }
-  .form-control{
+
+  .form-control {
     font-size: 15px;
   }
 }
