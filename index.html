@@ -8,22 +8,28 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>IbizaTransfer - Lujo y confort</title>
+    <title>IbizaTransfer » Lujo y confort</title>
     <link rel="icon" href="images/favicon-32x32.png" type="image/x-icon" />
 
-    <!-- CSS FILES -->
+    <!-------------- CSS FILES -------------->
+    <!-- fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 
+    <!-- CARUSEL links -->
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
 
+    <!-- BootStrap links -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-icons.css" rel="stylesheet">
 
+    <!-- My Style Sheet -->
     <link href="css/style.css" rel="stylesheet">
 </head>
 
@@ -31,14 +37,14 @@
 
     <main>
 
-        <header class="site-header">
+        <header class="site-header d-lg-block d-none">
             <div class="container">
                 <div class="row">
 
                     <div class="col-12 d-flex flex-wrap">
                         <p class="d-flex me-5 mt-1 mb-0">
                             <i class="bi bi-telephone-fill custom-icon me-2"></i>
-                            <strong class="text-dark">+34 639 943 284</strong>
+                            <a href="https://whatsapp.com" class="text-tlf">+34 639 943 284</a>
                         </p>
 
                         <ul class="social-icon d-flex align-items-center justify-content-center">
@@ -70,10 +76,10 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand" href="index.html">
-                    <img src="images/logoibiza.png" width="200" height="80">
+                    <img src="images/logo-no-background2.png" width="260" height="75">
                 </a>
 
-                <a href="contacto.html" class="btn custom-btn d-lg-none ms-auto me-2">Contacto</a>
+                <a href="contacto.html" class="btn custom-border-btn d-lg-none ms-auto me-2">Contacto</a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -99,7 +105,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link btn custom-btn d-lg-block d-none" href="contacto.html">Contacto</a>
+                            <a class="nav-link custom-border-btn d-lg-block d-none" href="contacto.php">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -115,12 +121,10 @@
                 <div class="row">
 
                     <div class="col-12 mt-auto mb-5 text-center">
-                        <!--<h1 class="text-white mb-5">Transfer de lujo 2024.</h1>-->
-
                         <div class="container herotext">
                             <div class="row">
                                 <div class="col">
-                                    <p class="pb-0 mb-0">BIENVENIDO A</p>
+                                    <p class="pb-0 mb-0">Bienvenido a</p>
                                     <div class="animation">
                                         <div class="first">
                                             <div>IbizaTransfer</div>
@@ -136,13 +140,11 @@
                             </div>
                         </div>
 
-                        <div class="container pb-2">
+                        <div class="container pt-4 pb-2">
                             <small>Alquiler de coches con conductor</small>
                         </div>
 
-                        <a class="btn custom-btn smoothscroll" href="#section_2">Comenzar</a>
-
-
+                        <a class="btn custom-btn2 smoothscroll" href="#section_2">Comenzar</a>
                     </div>
 
                     <div class="col-lg-12 col-12 mt-auto d-flex flex-column flex-lg-row text-center">
@@ -175,18 +177,18 @@
                         <div class="services-info fadein">
                             <h2 class="text-white mb-4">¿Quiénes Somos?</h2>
 
-                            <p class="text-white">IbizaTransfer es una empresa de vehículos de alta gama con chófer
+                            <p>IbizaTransfer es una empresa de vehículos de alta gama con chófer
                                 fundada en el año 2023 por 'Jorge Ramírez'. </p>
 
                             <h6 class="text-white mt-4">Una experiencia única</h6>
 
-                            <p class="text-white">Traslados nacionales, interprovinciales, urbanos, para escapadas
+                            <p>Traslados nacionales, interprovinciales, urbanos, para escapadas
                                 de fin de semana, para días laborales, para viajes turísticos o culturales, o para
                                 transfer al aeropuerto.</p>
 
                             <h6 class="text-white mt-4">Una experiencia inolvidable</h6>
 
-                            <p class="text-white">La puntualidad, rapidez, confort, comodidad, discreción y precios a
+                            <p>La puntualidad, rapidez, confort, comodidad, discreción y precios a
                                 medida nos identifica. Somos la mejor opción en alquiler de coches de lujo con conductor
                                 en Ibiza. Somos IbizaTransfer.</p>
                         </div>
@@ -220,40 +222,39 @@
         <section class="caract-section section-padding2" id="section_1">
             <div class="container text-center p-lg-5 p-1">
                 <div class="row rowone ">
-                    <div class="col-lg-3 col-12 mx-auto mb-lg-0 mb-5 fadein">
+                    <div class="col-lg-3 col-12 mx-auto mb-lg-0 mb-5 p-3 fadein">
                         <img src="images/svg/confort.svg" width="60" height="60">
                         <h4>Confort</h4>
-                        <p>Experimenta una sensación de bienestar y comodidad incomparable con otras
-                            empresas</p>
+                        <p>Experimenta una sensación de bienestar y comodidad incomparable</p>
                     </div>
-                    <div class="col-lg-3 col-12 mx-auto mb-lg-0 mb-5 fadein">
+                    <div class="col-lg-3 col-12 mx-auto mb-lg-0 mb-5 p-3 fadein">
                         <img src="images/svg/discrecion.svg" width="60" height="60">
                         <h4>Discreción</h4>
-                        <p>Disfruta de privacidad total y discreción absoluta cuando viajes con nuestros conductores</p>
+                        <p>Disfruta de privacidad y discreción absoluta cuando viajes con nosotros</p>
                     </div>
-                    <div class="col-lg-3 col-12 mx-auto mb-lg-0 mb-5 fadein">
+                    <div class="col-lg-3 col-12 mx-auto mb-lg-0 mb-5 p-3 fadein">
                         <img src="images/svg/profesionalidad.svg" width="60" height="60">
                         <h4>Profesionalidad</h4>
-                        <p>La experiencia y profesionalismo se unen para ofrecerte un servicio impecable y confiable</p>
+                        <p>La experiencia y profesionalismo se unen para ofrecerte un servicio impecable</p>
                     </div>
                 </div>
 
                 <div class="row mt-lg-5 mt-0">
-                    <div class="col-lg-3 col-12 mx-auto mb-lg-0 mb-5 fadein">
+                    <div class="col-lg-3 col-12 mx-auto mb-lg-0 mb-5 p-3 fadein">
                         <img src="images/svg/seguridad.svg" width="60" height="60">
                         <h4>Seguridad</h4>
-                        <p>Tu seguridad es nuestra prioridad: confía en nosotros para un traslado seguro y sin
-                            preocupaciones</p>
+                        <p class="text-justify">Tu seguridad es nuestra prioridad: confía en nosotros para un traslado
+                            seguro</p>
                     </div>
-                    <div class="col-lg-3 col-12 mx-auto mb-lg-0 mb-5 fadein">
+                    <div class="col-lg-3 col-12 mx-auto mb-lg-0 mb-5 p-3 fadein">
                         <img src="images/svg/puntualidad.svg" width="60" height="60">
                         <h4>Puntualidad</h4>
                         <p>La puntualidad es nuestra promesa: llegamos a tiempo, siempre. Nunca fallamos</p>
                     </div>
-                    <div class="col-lg-3 col-12 mx-auto mb-lg-0 mb-5 fadein">
+                    <div class="col-lg-3 col-12 mx-auto mb-lg-0 mb-5 p-3 fadein">
                         <img src="images/svg/idiomas.svg" width="60" height="60">
                         <h4>Idiomas</h4>
-                        <p>Comunicación sin barreras:<br>nuestro personal domina varios idiomas para tu comodidad</p>
+                        <p>Comunicación sin barreras: nuestro personal domina varios idiomas para tu comodidad</p>
                     </div>
                 </div>
 
@@ -269,13 +270,13 @@
             <div class="container">
                 <div class="row justify-content-center">
 
-                    <div class="col-12  text-center">
-                        <h2 class="mb-5 fadein">Servicios</h2>
+                    <div class="col-12 text-center mb-0 mb-lg-2 p-2 p-lg-4">
+                        <h2 class="mb-0 mb-lg-5 fadein">Nuestros servicios<br>empresas o particulares</h2>
                     </div>
 
-                    <div class="col-12 col-lg-6 mt-2 mt-lg-5 fadein">
-                        <div class="col-12 pe-lg-5 pe-0">
-                            
+                    <div class="col-12 col-lg-5 mt-4 mt-lg-5 p-3 p-lg-4 fadein">
+                        <div class="col-12">
+                            <h4 class="text-center">¿Qué eres?</h4>
                             <nav class="d-flex justify-content-center">
                                 <div class="nav nav-tabs align-items-baseline justify-content-center" id="nav-tab"
                                     role="tablist">
@@ -284,7 +285,7 @@
                                         aria-controls="nav-ContactForm" aria-selected="false">
                                         <h5>Particular</h5>
                                     </button>
-    
+
                                     <button class="nav-link" id="nav-ContactMap-tab" data-bs-toggle="tab"
                                         data-bs-target="#nav-ContactMap" type="button" role="tab"
                                         aria-controls="nav-ContactMap" aria-selected="false">
@@ -292,25 +293,27 @@
                                     </button>
                                 </div>
                             </nav>
-    
+
                             <div class="tab-content shadow-lg mt-4" id="nav-tabContent">
                                 <div class="tab-pane fade show active" id="nav-ContactForm" role="tabpanel"
                                     aria-labelledby="nav-ContactForm-tab">
                                     <img src="images/particular.jpg" alt="Responsive Image" class="responsive">
-                                    <p>Te sorprenderá encontrar nuestra exclusiva oferta de servicios de chofer privado a
+                                    <p class="text-center">Te sorprenderá encontrar nuestra exclusiva oferta de
+                                        servicios de chofer privado a
                                         precios altamente competitivos.</p>
-    
+
                                     <div class="text-center mt-5">
                                         <a class="btn custom-btn" href="#">Consulta todos los servicios</a>
                                     </div>
                                 </div>
-    
+
                                 <div class="tab-pane fade" id="nav-ContactMap" role="tabpanel"
                                     aria-labelledby="nav-ContactMap-tab">
                                     <img src="images/empresa.jpg" alt="Responsive Image" class="responsive">
-                                    <p>Consulta nuestras tarifas exclusivas diseñadas para empresas y pymes. Confía en
+                                    <p class="text-center">Consulta nuestras tarifas exclusivas diseñadas para empresas
+                                        y pymes. Confía en
                                         nuestra profesionalidad y experiencia.</p>
-    
+
                                     <div class="text-center mt-5">
                                         <a class="btn custom-btn" href="#">Consulta todos los servicios</a>
                                     </div>
@@ -322,20 +325,65 @@
 
 
 
-                    <div class="col-12 col-lg-6 gris text-center fadein">
+                    <div class="col-12 col-lg-7 p-4 p-lg-5 mt-3 mt-lg-4  gris text-center fadein">
 
-                        <h3 class="titulo2">¿Tu primera vez VIAJANDO con <span
-                                class="yellow ">IbizaTransfer</span>?
-                        </h3>
-                        <p class="mt-lg-5 mt-3">
-                            Te esperan experiencias inolvidables y un servicio excepcional. Desde el momento en que
+                        <h3 class="text-lg-start text-center">¿Es tu primera vez viajando con IbizaTransfer?</h3>
+                        <p class="mt-lg-5 mt-4 me-4 me-lg-2">
+
+                            <i class="bi bi-file-check"></i> Sabemos que encontrar un taxi o traslado en un país
+                            extranjero puede ser difícil y estresante. Reserva con antelación y disfruta del mejor
+                            servicio con todo incluido, sin sorpresas.
+
+                            <br><br>
+                            <i class="bi bi-file-check"></i>
+                            Puede elegir entre varios vehículos disponibles, para que siempre disfrute de la máxima
+                            comodidad. Tanto si viaja solo, en pareja o en grupo, tenemos el vehiculo perfecto para cada
+                            ocasión.
+
+
+                            <br><br>
+                            <i class="bi bi-file-check"></i>
+                            El conductor lo recogerá directamente de la terminal del aeropuerto, lo ayudará con su
+                            equipaje y lo llevará directamente a su hotel o cualquier otro destino, y viceversa.
+
+                        </p>
+
+                        <p class="mb-3 ms-0  mt-5  text-lg-start text-center ">
+                            <strong>Te esperan experiencias inolvidables y un servicio excepcional.</strong>
+                        </p>
+
+
+                        <p class="ms-1 ms-lg-0">Desde el momento en que
                             reservas hasta tu regreso a casa, nos aseguramos de que cada detalle sea perfecto. Nuestro
                             servicio de transfer te llevará cómodamente a tu destino, permitiéndote relajarte y
-                            disfrutar del viaje. <br><br>Descubre destinos increíbles y vive momentos únicos diseñados
-                            especialmente para ti. <br><br>¡Bienvenido a una nueva forma de viajar con <span
-                                class="activo2">IbizaTransfer!</span> </p>
+                            disfrutar del viaje.
+                            <br><br>
+                            Descubre destinos increíbles y vive momentos únicos diseñados
+                            especialmente para ti. <br><br>¡Bienvenido a una nueva forma de viajar con IbizaTransfer!
+                        </p>
                     </div>
                 </div>
+            </div>
+        </section>
+
+
+        <!----------------------------- imagenescarousel ----------------------------->
+        <section class="imagenescarousel">
+            <div class="owl-carousel ps-5 pe-5 owl-theme fadein">
+
+                <img src="images/carouselcar/10.jpg" alt="" />
+
+                <img src="images/carouselcar/6.jpg" alt="" />
+
+                <img src="images/carouselcar/3.jpg" alt="" />
+
+                <img src="images/carouselcar/4.jpg" alt="" />
+
+                <img src="images/carouselcar/8.jpg" alt="" />
+
+                <img src="images/carouselcar/2.jpg" alt="" />
+
+                <img src="images/carouselcar/9.jpg" alt="" />
             </div>
         </section>
 
@@ -345,16 +393,14 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="cursor">
-                        <img src="images/cursorpng.png" width="50" height="50">
-                    </div>
-
-                    <div class="col-12 text-center titulo-flota fadein">
-                        <h2 class="text-white">Vehículos</h2>
+                    <div class="col-12 text-start titulo-flota fadein">
+                        <h2>Algunos de<br> nuestros vehículos</h2>
+                        <p>Nuestra empresa solo colabora con la marca <i>'Mercedes Benz'</i>.
+                        </p>
                     </div>
 
                     <div class="col-lg-4 col-12 fadein">
-                        <div class="artists-thumb margenflota">
+                        <div class="artists-thumb">
                             <img src="images/ClaseA.png" class="artists-image img-fluid">
 
                             <div class="artists-hover">
@@ -376,20 +422,20 @@
                                 <hr>
 
                                 <p class="mb-0">
-                                    <strong>Clase A</strong>
+                                    <strong>Mercedes Benz Clase A</strong>
                                 </p>
                             </div>
                         </div>
                         <div class="text-car text-center">
-                            <h4>Mercedes Clase A</h4>
-                            <p>Sofisticación y refinamiento:
-                                elevando cada viaje, una experiencia de lujo inigualable</p>
+                            <h4>Clase A</h4>
+                            <p class="p-3"><span class="titulog">Sofisticación y refinamiento</span><br>
+                                elevando cada viaje, una experiencia <br>de lujo inigualable</p>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-12 fadein">
 
-                        <div class="artists-thumb">
+                        <div class="artists-thumb ">
                             <img src="images/ClaseG.jpeg" class="artists-image img-fluid">
 
                             <div class="artists-hover">
@@ -411,19 +457,19 @@
                                 <hr>
 
                                 <p class="mb-0">
-                                    <strong>Clase G</strong>
+                                    <strong>Mercedes Benz Clase G</strong>
                                 </p>
                             </div>
                         </div>
                         <div class="text-car text-center">
-                            <h4>Mercedes Clase G</h4>
-                            <p>El epítome del lujo aventurero:
-                                todoterreno que combina elegancia y rendimiento sin límites</p>
+                            <h4>Clase G</h4>
+                            <p class="p-3"><span class="titulog">El epítome del lujo aventurero</span><br>
+                                todoterreno que combina elegancia<br> y rendimiento sin límites</p>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-12 fadein">
-                        <div class="artists-thumb margenflota">
+                        <div class="artists-thumb">
                             <img src="images/ClaseV.jpg" class="artists-image img-fluid">
 
                             <div class="artists-hover">
@@ -445,14 +491,14 @@
                                 <hr>
 
                                 <p class="mb-0">
-                                    <strong>Clase V</strong>
+                                    <strong>Mercedes Benz Clase V</strong>
                                 </p>
                             </div>
                         </div>
                         <div class="text-car text-center">
-                            <h4>Mercedes Clase V</h4>
-                            <p>Versatilidad y máxima potencia:
-                                vehículo que combina espacio, comodidad y eficiencia</p>
+                            <h4>Clase V</h4>
+                            <p class="p-3"><span class="titulog">Versatilidad y máxima potencia</span><br>
+                                una combinación de<br> espacio, comodidad y eficiencia</p>
                         </div>
                     </div>
 
@@ -463,139 +509,129 @@
             </div>
         </section>
 
-
-        <!----------------------------- imagenescarousel ----------------------------->
-        <section class="imagenescarousel">
-            <div class="owl-carousel ps-5 pe-5 owl-theme fadein">
-
-                <img src="images/carouselcar/10.jpg" alt="" />
-
-                <img src="images/carouselcar/1.jpg" alt="" />
-
-                <img src="images/carouselcar/3.jpg" alt="" />
-
-                <img src="images/carouselcar/4.jpg" alt="" />
-
-                <img src="images/carouselcar/7.jpg" alt="" />
-
-                <img src="images/carouselcar/2.jpg" alt="" />
-
-                <img src="images/carouselcar/9.jpg" alt="" />
-            </div>
-        </section>
-
-
         <!----------------------------- TARIFAS ----------------------------->
-        <section class="pricing-section section-padding" id="section_5">
+        <section class="pricing-section section-padding2" id="section_5">
             <div class="container">
 
-                <h2 class="text-center mb-5 fadein">Tarifas</h2>
+                <h2 class="text-end fadein pe-3 mb-0 mb-lg-3">Nuestras tarifas<br> se adaptan a sus necesidades</h2>
 
-                <div class="row mt-lg-5 mt-2">
+                <div class="row mt-2 mt-lg-5">
 
-                    <div class="col-lg-6 col-12 mt-0 p-4 order-1 fadein">
-                        <div class="pricing-thumb">
-                            <div class="d-flex">
-                                <div>
-                                    <h3 class="pe-lg-0 pe-5"><small>TU PRIMER VIAJE CON NOSOTROS</small><br><span
-                                            class="moneytx">80€</span> </h3>
+                    <div class="col-lg-6 col-12 mt-0 mt-lg-5 p-4 order-1 fadein">
+                        <div class="shine">
+                            <div class="pricing-thumb mt-0">
+                                <div class="d-flex">
+                                    <div>
+                                        <h3 class="pe-lg-0 pe-5"><small>Tu primer viaje con nosotros</small><br><span
+                                                class="moneytx">80€</span> </h3>
 
-                                    <p class="p-pricing">¿Qué incluye?</p>
+                                        <p class="p-pricing">¿Qué incluye?</p>
+                                    </div>
+
+                                    <p class="pricing-tag2 ms-auto">Descuento<span>50%</span></h2>
                                 </div>
 
-                                <p class="pricing-tag2 ms-auto">Descuento<span>50%</span></h2>
+                                <ul class="pricing-list mt-3">
+                                    <li class="pricing-list-item">Una experiencia inolvidable</li>
+
+                                    <li class="pricing-list-item">Wifi y cargador</li>
+
+                                    <li class="pricing-list-item">Equipo de sonido</li>
+
+                                    <li class="pricing-list-item">Botella de agua</li>
+                                </ul>
+
+                                <a class="link-fx-2 color-contrast-higher mt-4" href="contacto.html">
+                                    <span>Usar ahora</span>
+                                    <svg class="icon" viewBox="0 0 32 32" aria-hidden="true">
+                                        <g fill="none" stroke="currentColor" stroke-linecap="round"
+                                            stroke-linejoin="round">
+                                            <circle cx="16" cy="16" r="15.5"></circle>
+                                            <line x1="10" y1="18" x2="16" y2="12"></line>
+                                            <line x1="16" y1="12" x2="22" y2="18"></line>
+                                        </g>
+                                    </svg>
+                                </a>
                             </div>
-
-                            <ul class="pricing-list mt-3">
-                                <li class="pricing-list-item">Una experiencia inolvidable</li>
-
-                                <li class="pricing-list-item">Wifi y cargador</li>
-
-                                <li class="pricing-list-item">Equipo de sonido</li>
-
-                                <li class="pricing-list-item">Botella de agua</li>
-                            </ul>
-
-                            <a class="link-fx-2 color-contrast-higher mt-4" href="contacto.html">
-                                <span>Usar ahora</span>
-                                <svg class="icon" viewBox="0 0 32 32" aria-hidden="true">
-                                    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-                                        <circle cx="16" cy="16" r="15.5"></circle>
-                                        <line x1="10" y1="18" x2="16" y2="12"></line>
-                                        <line x1="16" y1="12" x2="22" y2="18"></line>
-                                    </g>
-                                </svg>
-                            </a>
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-12 mt-lg-5 mt-1 p-4 order-lg-2 order-3 fadein">
-                        <div class="pricing-thumb">
-                            <div class="d-flex">
-                                <div>
-                                    <h3><small>Estándar</small><br><span class="moneytx">140€</span></h3>
+                    <div class="col-lg-6 col-12 mt-lg-0 mt-1 p-4 order-lg-2 order-3 fadein">
+                        <div class="shine">
+                            <div class="pricing-thumb">
+                                <div class="d-flex">
+                                    <div>
+                                        <h3><small>Estándar</small><br><span class="moneytx">140€</span></h3>
 
-                                    <p class="p-pricing">¿Qué incluye?</p>
+                                        <p class="p-pricing">¿Qué incluye?</p>
 
-                                    <p class="pricing-tag ms-auto">Ahorro de<span>20%</span></p>
-                                    <p class="smallt">26/08/2024</p>
+                                        <p class="pricing-tag ms-auto">Ahorro de<span>20%</span></p>
+                                        <p class="smallt">26/08/2024</p>
+                                    </div>
                                 </div>
+
+                                <ul class="pricing-list mt-3">
+                                    <li class="pricing-list-item">Todo incluido: peajes, impuestos, traslados...</li>
+
+                                    <li class="pricing-list-item">Wifi y cargador</li>
+
+                                    <li class="pricing-list-item">Equipo de sonido</li>
+
+                                    <li class="pricing-list-item">Botella de agua</li>
+
+                                </ul>
+
+                                <a class="link-fx-2 color-contrast-higher mt-4" href="contacto.html">
+                                    <span>Comprar ya</span>
+                                    <svg class="icon" viewBox="0 0 32 32" aria-hidden="true">
+                                        <g fill="none" stroke="currentColor" stroke-linecap="round"
+                                            stroke-linejoin="round">
+                                            <circle cx="16" cy="16" r="15.5"></circle>
+                                            <line x1="10" y1="18" x2="16" y2="12"></line>
+                                            <line x1="16" y1="12" x2="22" y2="18"></line>
+                                        </g>
+                                    </svg>
+                                </a>
                             </div>
-
-                            <ul class="pricing-list mt-3">
-                                <li class="pricing-list-item">Todo incluido: peajes, impuestos, traslados...</li>
-
-                                <li class="pricing-list-item">Wifi y cargador</li>
-
-                                <li class="pricing-list-item">Equipo de sonido</li>
-
-                                <li class="pricing-list-item">Botella de agua</li>
-
-                            </ul>
-
-                            <a class="link-fx-2 color-contrast-higher mt-4" href="contacto.html">
-                                <span>Comprar ya</span>
-                                <svg class="icon" viewBox="0 0 32 32" aria-hidden="true">
-                                    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-                                        <circle cx="16" cy="16" r="15.5"></circle>
-                                        <line x1="10" y1="18" x2="16" y2="12"></line>
-                                        <line x1="16" y1="12" x2="22" y2="18"></line>
-                                    </g>
-                                </svg>
-                            </a>
                         </div>
                     </div>
 
-                    <div class="col-lg-10 col-12 mx-auto mt-lg-5 mt-3 p-4 ps-lg-5 ps-4 order-lg-3 order-2 gris fadein">
-                        <h3 class="mt-lg-1 mt-0 text-center">Hecha un vistazo a todas nuestras <span class="yellow">
-                                tarifas</span>...
+                    <div
+                        class="col-lg-10 col-12 mx-auto mt-lg-5 mt-3 p-4 ps-lg-5 ps-4 order-lg-3 order-2 tarifas-text fadein">
+                        <h3 class="mt-lg-3 mt-0 text-start text-lg-center">Hecha un vistazo a todas nuestras >
+                            tarifas . . .
                         </h3>
-                        <p class="mt-lg-5 mt-3 pe-lg-4 pe-0">
+                        <p class="mt-lg-4 mt-3 pe-lg-5 pe-0 text-start text-lg-center">
                             Te esperan experiencias inolvidables y un servicio excepcional. Desde el momento en que
                             reservas hasta tu regreso a casa, nos aseguramos de que cada detalle sea perfecto. Nuestro
                             servicio de transfer te llevará cómodamente a tu destino, permitiéndote relajarte y
                             disfrutar del viaje. <br><br>Descubre destinos increíbles y vive momentos únicos diseñados
-                            especialmente para ti. <br>¡Bienvenido a una nueva forma de viajar con IbizaTransfer! </p>
+                            especialmente para ti. <br>¡Bienvenido a una nueva forma de viajar con IbizaTransfer!
+                        </p>
                     </div>
                 </div>
 
 
-                <div class="row mt-0">
+                <div class="row mt-4 mt-lg-0 mb-5 mb-lg-0">
                     <div class="col text-center">
                         <a class="btn custom-btn btn-tari" href="tarifas.html">Consulta todas nuestras tarifas</a>
                     </div>
                 </div>
         </section>
 
-
+        <section class="divider"></section>
+        
         <!----------------------------- testimonials ----------------------------->
         <section class="testimonials1">
             <div class="container">
-                <div class="prize text-center fadein">
-                    <h2 class="mb-5">Reseñas</h2>
+                <div class="row">
+                    <div class="col text-center fadein testitulo">
+                        <img src="images/svg/5star.svg" width="120" height="120">
+                        <h2 class="mb-3 text-center fadein">RESEÑAS DE CLIENTES</h2>
+                    </div>
                 </div>
-                
-                <section id="testim" class="testim fadein mb-4 mb-lg-0">
+
+                <div id="testim" class="testim fadein mt-4">
                     <div class="testim-cover">
                         <div class="wrap">
 
@@ -618,20 +654,21 @@
                                     <div class="img"><img src="images/testimonials/1.jpg" alt=""></div>
                                     <h3>Marta Maria Alvarez</h3>
                                     <p>La experiencia fue excepcional: vehículos lujosos y conductores puntuales y
-                                        amables. Sin duda, elegiré su servicio nuevamente por su profesionalismo y
-                                        comodidad.<br><br><br><i class="bi bi-patch-check"> Verificado</i>
-                                    
-                                    
-                                        <div class="rating-box">
-                                            <span class="rating-star full-star"></span>
-                                            <span class="rating-star full-star"></span>
-                                            <span class="rating-star full-star"></span>
-                                            <span class="rating-star full-star"></span>
-                                            <span class="rating-star empty-star"></span>
-                                          </div>
-                                    
+                                        amables. Sin duda, elegiré su servicio nuevamente por su profesionalismo,
+                                        comodidad y amabilidad. Son los mejores.<br><br><br><i
+                                            class="bi bi-patch-check"> Verificado</i>
+
+
+                                    <div class="rating-box">
+                                        <span class="rating-star full-star"></span>
+                                        <span class="rating-star full-star"></span>
+                                        <span class="rating-star full-star"></span>
+                                        <span class="rating-star full-star"></span>
+                                        <span class="rating-star empty-star"></span>
+                                    </div>
+
                                     </p>
-                                        
+
                                 </div>
 
                                 <div>
@@ -640,20 +677,20 @@
                                     <p>El servicio fue inmejorable. Desde la puntualidad del conductor hasta la
                                         comodidad y lujo del vehículo, todo superó mis expectativas. Definitivamente,
                                         volveré a utilizar sus servicios y lo recomiendo a quienes buscan un transporte
-                                        de primer nivel.<br><br><i class="bi bi-patch-check"> Verificado</i>
-                                    
-                                    
-                                        <div class="rating-box">
-                                            <span class="rating-star full-star"></span>
-                                            <span class="rating-star full-star"></span>
-                                            <span class="rating-star full-star"></span>
-                                            <span class="rating-star full-star"></span>
-                                            <span class="rating-star full-star"></span>
-                                          </div>
-                                    
+                                        <br><br><i class="bi bi-patch-check"> Verificado</i>
+
+
+                                    <div class="rating-box">
+                                        <span class="rating-star full-star"></span>
+                                        <span class="rating-star full-star"></span>
+                                        <span class="rating-star full-star"></span>
+                                        <span class="rating-star full-star"></span>
+                                        <span class="rating-star full-star"></span>
+                                    </div>
+
                                     </p>
 
-                                        
+
                                 </div>
 
                                 <div>
@@ -661,19 +698,20 @@
                                     <h3>Almudena Rey</h3>
                                     <p>El servicio de transfer de lujo de IbizaTransfer fue impecable, con vehículos
                                         elegantes y conductores muy profesionales. Recomiendo encarecidamente su
-                                        servicio por su comodidad y atención a los detalles.<br><br><i class="bi bi-patch-check"> Verificado</i>
-                                    
-                                    
-                                        <div class="rating-box">
-                                            <span class="rating-star full-star"></span>
-                                            <span class="rating-star full-star"></span>
-                                            <span class="rating-star full-star"></span>
-                                            <span class="rating-star full-star"></span>
-                                            <span class="rating-star full-star"></span>
-                                          </div>
-                                    
-                                    
-                                    
+                                        servicio por su comodidad y atención a los detalles. Fueron muy
+                                        amables.<br><br><i class="bi bi-patch-check"> Verificado</i>
+
+
+                                    <div class="rating-box">
+                                        <span class="rating-star full-star"></span>
+                                        <span class="rating-star full-star"></span>
+                                        <span class="rating-star full-star"></span>
+                                        <span class="rating-star full-star"></span>
+                                        <span class="rating-star full-star"></span>
+                                    </div>
+
+
+
                                     </p>
                                 </div>
 
@@ -682,17 +720,18 @@
                                     <h3>Jose Ramon Carranza</h3>
                                     <p>Todo fue excepcional. Los vehículos eran lujosos y cómodos, y el conductor fue
                                         puntual y profesional. Recomiendo este servicio a cualquiera que busque una
-                                        experiencia de transporte de alta calidad y sin preocupaciones.<br><br><i class="bi bi-patch-check"> Verificado</i>
-                                    
-                                    
-                                        <div class="rating-box">
-                                            <span class="rating-star full-star"></span>
-                                            <span class="rating-star full-star"></span>
-                                            <span class="rating-star full-star"></span>
-                                            <span class="rating-star full-star"></span>
-                                            <span class="rating-star empty-star"></span>
-                                          </div>
-                                    
+                                        experiencia de transporte de alta calidad, inolvidable.<br><br><i
+                                            class="bi bi-patch-check"> Verificado</i>
+
+
+                                    <div class="rating-box">
+                                        <span class="rating-star full-star"></span>
+                                        <span class="rating-star full-star"></span>
+                                        <span class="rating-star full-star"></span>
+                                        <span class="rating-star full-star"></span>
+                                        <span class="rating-star empty-star"></span>
+                                    </div>
+
                                     </p>
                                 </div>
 
@@ -700,17 +739,18 @@
                                     <div class="img"><img src="images/testimonials/2.jpg" alt=""></div>
                                     <h3>Marcelino Carbonell</h3>
                                     <p>Superó mis expectativas con su puntualidad, comodidad y lujo. Definitivamente lo
-                                        recomiendo para quienes buscan un transporte de alta calidad.<br><br><br><i class="bi bi-patch-check">Verificado</i>
-                                    
-                                        <div class="rating-box">
-                                            <span class="rating-star full-star"></span>
-                                            <span class="rating-star full-star"></span>
-                                            <span class="rating-star full-star"></span>
-                                            <span class="rating-star full-star"></span>
-                                            <span class="rating-star full-star"></span>
-                                          </div>
-                                    
-                                    
+                                        recomiendo para quienes buscan un transporte de alta calidad. Muy recomendable
+                                        para todas las personas.<br><br><br><i class="bi bi-patch-check">Verificado</i>
+
+                                    <div class="rating-box">
+                                        <span class="rating-star full-star"></span>
+                                        <span class="rating-star full-star"></span>
+                                        <span class="rating-star full-star"></span>
+                                        <span class="rating-star full-star"></span>
+                                        <span class="rating-star full-star"></span>
+                                    </div>
+
+
                                     </p>
                                 </div>
 
@@ -718,7 +758,7 @@
 
                         </div>
                     </div>
-                </section>
+                </div>
             </div>
         </section>
 
@@ -730,7 +770,7 @@
                 <div class="interested">
                     <div class="row ">
 
-                        <h2 class="text-center mt-lg-5 mt-0 mb-4 fadein">¿Interesad@?</h2>
+                        <h2 class="text-center mt-lg-2 mt-0 mb-4 fadein">¿Interesad@?</h2>
 
                         <div class="text-center fadein">
                             <p class="text-dark">Si está interesado en hablar para concertar una cita, contacte con
@@ -803,11 +843,11 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="col-lg-6 col-12">
-                        <h2 class="text-white mb-lg-0">IbizaTransfer <span class="smallertitle">LUXURY.</span></h2>
+                    <div class="col-lg-6 col-12 ">
+                        <h2 class="text-white">IbizaTransfer<span class="smallertitle"> Luxury.</span></h2>
                     </div>
 
-                    <div class="col-lg-6 col-12 d-flex justify-content-lg-end align-items-center">
+                    <div class="col-lg-6 col-12 d-flex justify-content-lg-end align-items-center pe-lg-5 pe-0">
                         <ul class="social-icon d-flex justify-content-lg-end">
                             <li class="social-icon-item">
                                 <a href="#" class="social-icon-link">
@@ -832,12 +872,6 @@
                                     <span class="bi-youtube"></span>
                                 </a>
                             </li>
-
-                            <li class="social-icon-item">
-                                <a href="#" class="social-icon-link">
-                                    <span class="bi-pinterest"></span>
-                                </a>
-                            </li>
                         </ul>
                     </div>
                 </div>
@@ -853,27 +887,27 @@
 
                         <ul class="site-footer-links">
                             <li class="site-footer-link-item">
-                                <a href="#" class="site-footer-link">Inicio</a>
+                                <a href="index.html" class="site-footer-link">Inicio</a>
                             </li>
 
                             <li class="site-footer-link-item">
-                                <a href="#" class="site-footer-link">Quienes Somos</a>
+                                <a href="servicios.html" class="site-footer-link">Servicios</a>
                             </li>
 
                             <li class="site-footer-link-item">
-                                <a href="#" class="site-footer-link">Servicios</a>
+                                <a href="flota.html" class="site-footer-link">Flota</a>
                             </li>
 
                             <li class="site-footer-link-item">
-                                <a href="#" class="site-footer-link">Flota</a>
+                                <a href="tarifas.html" class="site-footer-link">Tarifas</a>
                             </li>
 
                             <li class="site-footer-link-item">
-                                <a href="#" class="site-footer-link">Tarifas</a>
+                                <a href="contacto.html" class="site-footer-link">Contacto</a>
                             </li>
 
                             <li class="site-footer-link-item">
-                                <a href="#" class="site-footer-link">Contacto</a>
+                                <a href="sitemap.html" class="site-footer-link">Mapa del sitio</a>
                             </li>
                         </ul>
                     </div>
@@ -920,216 +954,109 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="col-lg-3 col-12 mt-5">
+                    <div class="col-lg-4 col-12 mt-5">
                         <p class="copyright-text">Copyright © 2024 IbizaTransfer Company</p>
                         <p class="copyright-text">Creado por: <a
                                 href="https://gutizzz.000webhostapp.com">antoniogutiérrez</a></p>
                     </div>
 
-                    <div class="col-lg-8 col-12 mt-lg-5 d-flex justify-content-end ">
-                        <ul class="site-footer-links">
-                            <li class="site-footer-link-item">
-                                <a href="#" class="site-footer-link ms-5 me-4">Términos &amp; Condiciones</a>
-                            </li>
+                    <div class="col-lg-8 col-12 mt-lg-5 d-flex justify-content-end mt-3 mt-lg-0 ">
 
-                            <li class="site-footer-link-item">
-                                <a href="#" class="site-footer-link me-4">Política de Privacidad</a>
-                            </li>
+                        <div class="col-lg-2 text-center">
+                            <ul class="site-footer-links">
+                                <li class="site-footer-link-item">
+                                    <a href="#" class="site-footer-link">Términos &amp;
+                                        Condiciones</a>
+                                </li>
+                            </ul>
+                        </div>
 
-                            <li class="site-footer-link-item">
-                                <a href="#" class="site-footer-link">Tu Feedback</a>
-                            </li>
-                        </ul>
+                        <div class="col-lg-2 text-center">
+                            <ul class="site-footer-links">
+                                <li class="site-footer-link-item">
+                                    <a href="#" class="site-footer-link">Política de Privacidad</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-2 text-center">
+                            <ul class="site-footer-links">
+                                <li class="site-footer-link-item">
+                                    <a href="#" class="site-footer-link mt-0 mt-lg-2">Tu Feedback</a>
+                                </li>
+                            </ul>
+                        </div>
+
                     </div>
                 </div>
             </div>
-        </div>
     </footer>
 
 
 
-    <!--
 
-T e m p l a t e M o
 
--->
+    <!-- COOKIES! -->
+
+    <div class="cookiesbox">
+        <div class="header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="orange" class="bi bi-cookie"
+                viewBox="0 0 16 16">
+                <path
+                    d="M6 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m4.5.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3m-.5 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0" />
+                <path
+                    d="M8 0a7.96 7.96 0 0 0-4.075 1.114q-.245.102-.437.28A8 8 0 1 0 8 0m3.25 14.201a1.5 1.5 0 0 0-2.13.71A7 7 0 0 1 8 15a6.97 6.97 0 0 1-3.845-1.15 1.5 1.5 0 1 0-2.005-2.005A6.97 6.97 0 0 1 1 8c0-1.953.8-3.719 2.09-4.989a1.5 1.5 0 1 0 2.469-1.574A7 7 0 0 1 8 1c1.42 0 2.742.423 3.845 1.15a1.5 1.5 0 1 0 2.005 2.005A6.97 6.97 0 0 1 15 8c0 .596-.074 1.174-.214 1.727a1.5 1.5 0 1 0-1.025 2.25 7 7 0 0 1-2.51 2.224Z" />
+            </svg>
+            <h2>Consentimiento<br>de Cookies</h2>
+        </div>
+
+
+        <hr>
+
+
+        <div class="data">
+            <p>Para mejorar tu experiencia en nuestra página y que te muestre información más relevante, utilizamos
+                cookies y tecnologías similares. <a href="#"> Leer más...</a></p>
+        </div>
+        <div class="buttons">
+            <button class="button" id="acceptBtn">Aceptar</button>
+            <button class="button" id="declineBtn">Rechazar</button>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-------------------------------------------
+
+A n t o n i o  G u t i é r r e z
+
+--------------------------------->
+
 
     <!-- JAVASCRIPT FILES -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.sticky.js"></script>
     <script src="js/custom.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- ICONOS FILES -->
     <script src="https://use.fontawesome.com/1744f3f671.js"></script>
 
-    <script>
-        var owl = $(".owl-carousel");
-        owl.owlCarousel({
-            items: 3,
-            margin: 10,
-            autoplay: true,
-            loop: true,
+    <!-- CARUSEL JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="js/micarusel.js"></script>
 
-            /*
-            loop: true,
-            nav: true,
-            navText: ["Prev", "Next"],
-            dotsEach: true,
-            autoplay: true,
-            autoplayTimeout: 1000,
-            autoplayHoverpause: true,
-            */
+    <!-- TESTIMONIALS JS -->
+    <script src="js/testim.js"></script>
 
-            responsive: {
-                0: {
-                    items: 2,
-                    margin: 5,
-                },
-                600: {
-                    items: 3,
-                    margin: 10,
-                },
-                1000: {
-                    items: 5,
-                    margin: 20,
-                },
-            },
-        });
-    </script>
+    <!-- fadein JS -->
+    <script src="js/fadein.js"></script>
 
-    <script>
-
-        // vars
-        'use strict'
-        var testim = document.getElementById("testim"),
-            testimDots = Array.prototype.slice.call(document.getElementById("testim-dots").children),
-            testimContent = Array.prototype.slice.call(document.getElementById("testim-content").children),
-            testimLeftArrow = document.getElementById("left-arrow"),
-            testimRightArrow = document.getElementById("right-arrow"),
-            testimSpeed = 4500,
-            currentSlide = 0,
-            currentActive = 0,
-            testimTimer,
-            touchStartPos,
-            touchEndPos,
-            touchPosDiff,
-            ignoreTouch = 30;
-        ;
-
-        window.onload = function () {
-
-            // Testim Script
-            function playSlide(slide) {
-                for (var k = 0; k < testimDots.length; k++) {
-                    testimContent[k].classList.remove("active");
-                    testimContent[k].classList.remove("inactive");
-                    testimDots[k].classList.remove("active");
-                }
-
-                if (slide < 0) {
-                    slide = currentSlide = testimContent.length - 1;
-                }
-
-                if (slide > testimContent.length - 1) {
-                    slide = currentSlide = 0;
-                }
-
-                if (currentActive != currentSlide) {
-                    testimContent[currentActive].classList.add("inactive");
-                }
-                testimContent[slide].classList.add("active");
-                testimDots[slide].classList.add("active");
-
-                currentActive = currentSlide;
-
-                clearTimeout(testimTimer);
-                testimTimer = setTimeout(function () {
-                    playSlide(currentSlide += 1);
-                }, testimSpeed)
-            }
-
-            testimLeftArrow.addEventListener("click", function () {
-                playSlide(currentSlide -= 1);
-            })
-
-            testimRightArrow.addEventListener("click", function () {
-                playSlide(currentSlide += 1);
-            })
-
-            for (var l = 0; l < testimDots.length; l++) {
-                testimDots[l].addEventListener("click", function () {
-                    playSlide(currentSlide = testimDots.indexOf(this));
-                })
-            }
-
-            playSlide(currentSlide);
-
-            // keyboard shortcuts
-            document.addEventListener("keyup", function (e) {
-                switch (e.keyCode) {
-                    case 37:
-                        testimLeftArrow.click();
-                        break;
-
-                    case 39:
-                        testimRightArrow.click();
-                        break;
-
-                    case 39:
-                        testimRightArrow.click();
-                        break;
-
-                    default:
-                        break;
-                }
-            })
-
-            testim.addEventListener("touchstart", function (e) {
-                touchStartPos = e.changedTouches[0].clientX;
-            })
-
-            testim.addEventListener("touchend", function (e) {
-                touchEndPos = e.changedTouches[0].clientX;
-
-                touchPosDiff = touchStartPos - touchEndPos;
-
-                console.log(touchPosDiff);
-                console.log(touchStartPos);
-                console.log(touchEndPos);
-
-
-                if (touchPosDiff > 0 + ignoreTouch) {
-                    testimLeftArrow.click();
-                } else if (touchPosDiff < 0 - ignoreTouch) {
-                    testimRightArrow.click();
-                } else {
-                    return;
-                }
-
-            })
-        }
-    </script>
-
-
-   <script>
-// fade in grid items  ==================================
-
-$(document).on("scroll", function () {
-    var pageTop = $(document).scrollTop()
-    var pageBottom = pageTop + $(window).height()
-    var tags = $(".fadein")
-
-    for (var i = 0; i < tags.length; i++) {
-      var tag = tags[i]
-
-      if ($(tag).offset().top < pageBottom) {
-        $(tag).addClass("visible")
-      } else {
-        $(tag).removeClass("visible")
-      }
-    }
-  })
-    </script>
+    <!-- cookies JS -->
+    <script src="js/cookies.js"></script>
 </body>
 
 </html>
